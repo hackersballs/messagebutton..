@@ -1,6 +1,6 @@
 const { React } = BdApi;
 
-module.exports = class MessageButtonPlugin {
+module.exports = {
   start() {
     const UserProfile = BdApi.findModule(m => m?.default?.displayName === "UserProfile");
 
